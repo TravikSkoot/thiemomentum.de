@@ -1,0 +1,24 @@
+{
+  "name": "thiemomentum.de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -o",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravikSkoot/thiemomentum.de.git"
+  },
+  "author": "TravikSkoot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TravikSkoot/thiemomentum.de/issues"
+  },
+  "homepage": "https://github.com/TravikSkoot/thiemomentum.de#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
