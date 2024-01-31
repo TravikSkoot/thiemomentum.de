@@ -13,18 +13,20 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     animation: fadeIn 1s ease-in-out;
-
 }
 
 body, html {
     overflow-x: hidden;
 }
 
+html {
+    background-color: #282c34;
+}
 
 .header {
     background-color: #3B5ABF;
     color: #ffffff;
-    padding: 20px;
+    padding: 100px;
     text-align: center;
     animation: fadeIn 2s ease-in-out;
 }
